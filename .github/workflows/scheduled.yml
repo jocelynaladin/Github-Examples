@@ -1,7 +1,7 @@
 name: Hello World
 on: 
   schedule:
-    - cron: '*/2 * * * *'
+    - cron: '*/5 * * * *'
       timezone: America/New_York
   
   workflow_dispatch: 
